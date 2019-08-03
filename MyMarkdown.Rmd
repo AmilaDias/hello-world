@@ -1,0 +1,25 @@
+---
+title: "MyMarkdown"
+author: "Rawini Dias"
+date: "8/2/2019"
+---
+
+```{r setup, include=FALSE}
+library(viridis)
+```
+
+The code below shows two color palettes in the viridis package. Each plot displays a contour map of the Maunga Whau volcano in Aukland, NZ
+
+## Viridis Colors
+
+```{r}
+image(volcano, col = viridis(200))
+```
+
+## Maugma Colors
+
+```{r}
+image(volcano, col = viridis(200, option = "A"))
+```
+
+
